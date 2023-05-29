@@ -83,7 +83,7 @@ The hyperparameters that give the best performance (accuracy) are:
 For these experiments, the SWA procedure is not implemented during training, but the networks at each epoch are saved and averaged at the end. This gives more flexibility to choose the best epoch at which to start the average.
 
 The code for running this experiments is in the subfolder `ECDSep-IN`, together with the notebooks to perform this analysis.
-For tiny-IN the code will automatically download the dataset, but for IN this has to been provided by the user. 
+For tiny-IN the code will automatically download the dataset, but for IN this has to been provided by the user. We thank [Daniel Kunin][https://github.com/danielkunin] for sharing this code.
 
 
 ##### Tiny-Imagenet
