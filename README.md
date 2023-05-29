@@ -13,7 +13,7 @@ from inflation import ECDSep
 ```
 at the beginning of it. To call it write
 ```
-ECDSep(parameters, lr, nu=1e-5, eta=1., weight_decay=0, F0=0., eps1=1e-10, eps2=1e-40, deltaEn=0., s=1, consEn=True)
+ECDSep(parameters, lr, nu=1e-5, eta, weight_decay=0, F0=0., eps1=1e-10, eps2=1e-40, deltaEn=0., s=1, consEn=True)
 ```
 where
 - `parameters` are the parameters regarding which performing optimization.
